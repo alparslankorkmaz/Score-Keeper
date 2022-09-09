@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scrkeeper">
+    <h1>SCORE KEEPER</h1>
+    <img src="https://images.unsplash.com/photo-1534158914592-062992fbe900?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dGFibGUlMjB0ZW5uaXN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="table tennis">
+    
+    <div class="numofgames">
+        <label for="plto">Playing to</label>
+        <select name="plto" id="plto">
+            <option value= 5 >5</option>
+            <option value= 7 >7</option>
+            <option value= 10 >10</option>
+            <option value= 15 >15</option>    
+        </select>
+    </div>
+    
+    <div class="scores">
+        <span id="p1">0</span> to 
+        <span id="p2">0</span>
+    </div>
+
+
+    <div class="buttons">
+        <button class="p1btn" id="p1btn">+1 Player One</button>
+        <button class="p2btn" id="p2btn">+1 Player Two</button>
+        <div>
+            <button class="reset" id="reset">Reset</button>
+        </div>
+    </div>
+
+</div>
+
+    
+
+
+<script src="app.js"></script>
+
+</body>
+</html>
