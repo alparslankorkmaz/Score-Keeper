@@ -58,7 +58,7 @@ body {
 h1 {
     margin: 0;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 34px;
 }
 
 img {
@@ -75,6 +75,10 @@ img {
 
 button {
     margin: 1em;
+    border-radius: 15%;
+    padding: 1em;
+    color: antiquewhite;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -89,25 +93,15 @@ button:hover {
 
 #p1btn {
     background-color: rgb(57, 155, 113);
-    color: antiquewhite;
-    padding: 1em;
-    border-radius: 15%;
 }
 
 #p2btn {
     background-color: rgb(57, 114, 155);
-    color: antiquewhite;
-    padding: 1em;
-    border-radius: 15%;
 }
 
 #reset {
     background-color: rgb(155, 57, 57);
-    color: antiquewhite;
-    padding: 1em;
-    border-radius: 15%;
 }
-
 
 
 .winner {
